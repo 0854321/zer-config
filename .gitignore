@@ -1,0 +1,47 @@
+# History files
+.history/
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Node.js (if applicable)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if applicable)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
