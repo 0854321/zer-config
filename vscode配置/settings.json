@@ -25,6 +25,7 @@
   "debug.showBreakpointsInOverviewRuler": true,
   "debug.onTaskErrors": "debugAnyway",
   "diffEditor.ignoreTrimWhitespace": true, //差异编辑器将忽略前导空格或尾随空格中的更改
+  "diffEditor.ignoreTrimWhitespace": true, //差异编辑器将忽略前导空格或尾随空格中的更改
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
   "editor.find.addExtraSpaceOnTop": false,
   "editor.inlineSuggest.enabled": true,
@@ -130,6 +131,7 @@
   ],
 
   "github.copilot.enable": {
+    "*": false
     "*": false
   },
   "cSpell.allowCompoundWords": true,
