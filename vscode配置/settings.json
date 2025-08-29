@@ -12,7 +12,6 @@
   "workbench.iconTheme": "catppuccin-mocha",
   "workbench.list.smoothScrolling": true,
   "workbench.preferredLightColorTheme": "Firefox Light",
-  "workbench.sideBar.location": "left",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
 
@@ -25,7 +24,7 @@
   "editor.unicodeHighlight.includeComments": true, //控制注释中的字符是否也应进行 Unicode 突出显示
   "debug.showBreakpointsInOverviewRuler": true,
   "debug.onTaskErrors": "debugAnyway",
-  "diffEditor.ignoreTrimWhitespace": false, //差异编辑器将忽略前导空格或尾随空格中的更改
+  "diffEditor.ignoreTrimWhitespace": true, //差异编辑器将忽略前导空格或尾随空格中的更改
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
   "editor.find.addExtraSpaceOnTop": false,
   "editor.inlineSuggest.enabled": true,
@@ -131,9 +130,7 @@
   ],
 
   "github.copilot.enable": {
-    "*": true,
-    "markdown": true,
-    "plaintext": false
+    "*": false
   },
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
@@ -313,7 +310,6 @@
   "dart.openDevTools": "flutter",
   "cursor.cmdk.autoSelect": false,
   "workbench.colorTheme": "Firefox Dark",
-  "workbench.preferredDarkColorTheme": "Firefox Dark",
   "vite.autoStart": false,
   "go.toolsManagement.autoUpdate": true,
   "color-highlight.useARGB": true,
@@ -324,5 +320,45 @@
     "editor.defaultFormatter": "Vue.volar"
   },
   "postgresExplorer.connections": [],
-  "makefile.configureOnOpen": true
+  "makefile.configureOnOpen": true,
+  "roo-cline.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show",
+    "npm run dev",
+    "mkdir"
+  ],
+  "workbench.activityBar.location": "top",
+  "kilo-code.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "workbench.preferredDarkColorTheme": "Firefox Dark",
+  "[yaml]": {
+    
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultColorDecorators": "never",
+    "editor.quickSuggestions": {
+      "strings": "on"
+    }
+  },
+  "roo-cline.deniedCommands": [],
+  "workbench.editor.autoLockGroups": {
+    "jupyter-notebook": true
+  },
+  "kilo-code.deniedCommands": [],
+  "editor.accessibilitySupport": "on",
+  "dish-ai-commit.base.provider": "OpenRouter",
+  "dish-ai-commit.providers.openrouter.apiKey": "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",
+  "dish-ai-commit.base.model": "x-ai/grok-code-fast-1"
 }
