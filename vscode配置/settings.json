@@ -132,7 +132,6 @@
 
   "github.copilot.enable": {
     "*": false
-    "*": false
   },
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
